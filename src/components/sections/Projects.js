@@ -30,6 +30,78 @@ const projectData = [
     liveUrl: '#',
     repoUrl: '#',
   },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
+  {
+    title: 'Landing Page Produk SaaS',
+    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
+    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    liveUrl: '#',
+    repoUrl: '#',
+  },
 ];
 
 // Konfigurasi animasi untuk container

@@ -16,14 +16,7 @@
   <img src="https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge&logo=vercel" alt="Deployed on Vercel">
 </p>
 
-[**🔗 Lihat Live Demo 🔗**](https://link-ke-live-demo-anda.com) </div>
-
----
-
-## 🖼️ Tampilan Proyek
-*Ganti gambar di bawah ini dengan screenshot atau GIF dari proyek Anda.*
-
-![Tampilan Portofolio](link-ke-tampilan-proyek.png)
+[**🔗 Lihat Live Website 🔗**](https://link-ke-live-demo-anda.com) </div>
 
 ---
 
@@ -97,18 +90,11 @@ Pastikan Anda sudah menginstal perangkat lunak berikut di mesin Anda:
 
 ---
 
-## 🌐 Deployment
-Cara termudah untuk mendeploy aplikasi Next.js ini adalah dengan menggunakan [**Vercel Platform**](https://vercel.com), dari para pembuat Next.js. Cukup hubungkan repositori GitHub Anda ke Vercel dan proyek Anda akan *live* dalam hitungan menit.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ughni/Portofolio_Mughni)
-
----
-
 ## 📬 Hubungi Saya
 Saya selalu terbuka untuk diskusi, kolaborasi, atau sekadar menyapa. Jangan ragu untuk menghubungi saya!
 
 <p align="left">
-  <a href="mailto:faan8428@contoh.com" target="_blank">
+  <a href="mailto:faan8428@Gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://linkedin.com/in/m-mughni" target="_blank">

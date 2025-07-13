@@ -23,20 +23,20 @@ const Contact = () => {
     {
       icon: <FiMail className="text-primary" size={24} />,
       title: "Email",
-      value: "hello@mughni.dev",
-      link: "mailto:hello@mughni.dev",
+      value: "faan8428@gmail.com",
+      link: "mailto:faan8428@gamil.com",
     },
     {
       icon: <FiMapPin className="text-primary" size={24} />,
       title: "Location",
-      value: "Jakarta, Indonesia",
-      link: "https://maps.google.com/?q=Jakarta",
+      value: "Pekalongan, Indonesia",
+      link: "https://maps.app.goo.gl/JDDp9gzVNCju21wu5",
     },
     {
       icon: <FiPhone className="text-primary" size={24} />,
       title: "Phone",
-      value: "+62 123 4567 890",
-      link: "tel:+621234567890",
+      value: "+62 8586 9090 748",
+      link: "tel:+6285869090748",
     },
   ];
 
