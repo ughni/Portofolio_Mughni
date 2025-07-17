@@ -7,12 +7,12 @@ import { motion } from 'framer-motion';
 // Path gambar sekarang sudah benar, dimulai dari /
 const projectData = [
   {
-    title: 'Website E-commerce',
+    title: 'Website E-commerce UMKM Pekalongan',
     description: 'Platform toko online modern dengan fitur keranjang belanja, checkout, dan panel admin yang responsif dan aman.',
-    imgSrc: '/images/projects/project1.png', // Ganti dengan path gambar Anda
-    tags: ['Next.js', 'Tailwind CSS', 'Stripe'],
-    liveUrl: '#',
-    repoUrl: '#',
+    imgSrc: '/images/projects/project4.png',
+    tags: ['Next.js', 'Tailwind CSS', 'Framer-Motion', "React-Hook-From", "React-Icon"],
+    liveUrl: 'https://umkm-pekalongan-oudjtdsvh-ughnis-projects.vercel.app/',
+    repoUrl: 'https://github.com/ughni/umkm_pekalongan',
   },
   {
     title: 'Aplikasi Blog Pribadi',
