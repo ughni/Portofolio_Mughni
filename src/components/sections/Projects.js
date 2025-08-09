@@ -5,8 +5,10 @@ import { motion } from 'framer-motion';
 
 // --- BAGIAN YANG DIPERBAIKI ---
 // Path gambar sekarang sudah benar, dimulai dari /
+// Menambahkan id unik dan mengubah title yang duplikat
 const projectData = [
   {
+    id: 1,
     title: 'Website E-commerce UMKM Pekalongan',
     description: 'Platform toko online modern dengan fitur keranjang belanja, checkout, dan panel admin yang responsif dan aman.',
     imgSrc: '/images/projects/project4.png',
@@ -15,90 +17,101 @@ const projectData = [
     repoUrl: 'https://github.com/ughni/umkm_pekalongan',
   },
   {
-    title: 'Aplikasi Blog Pribadi',
-    description: 'Blog minimalis dengan sistem manajemen konten (CMS) untuk menulis dan mempublikasikan artikel dengan mudah.',
-    imgSrc: '/images/projects/project2.png', // Ganti dengan path gambar Anda
-    tags: ['React', 'Firebase', 'Markdown'],
-    liveUrl: '#',
-    repoUrl: '#',
+    id: 2,
+    title: 'Website Bioskop',
+    description: 'Bioskop adalah sebuah proyek front-end yang dibuat untuk memberikan pengalaman layaknya situs bioskop modern. Pengguna dapat melihat film-film yang sedang populer, melakukan pencarian film secara real-time, dan melihat detail lengkap dari setiap film dalam sebuah popup (modal) yang interaktif. Proyek ini sepenuhnya dibangun dengan HTML, CSS, dan JavaScript murni (vanilla), tanpa menggunakan framework atau library eksternal.',
+    imgSrc: '/images/projects/project4.png', // Fixed: Added leading slash
+    tags: ['HTML', 'CSS', 'Javascript'],
+    liveUrl: 'https://bioskop-kita.vercel.app/',
+    repoUrl: 'https://github.com/ughni/BioskopKita',
   },
   {
+    id: 3,
     title: 'Landing Page Produk SaaS',
     description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
+    imgSrc: '/images/projects/project3.png',
     tags: ['HTML5', 'CSS3', 'JavaScript'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 4,
+    title: 'E-Learning Platform',
+    description: 'Platform pembelajaran online dengan fitur kuis interaktif, progress tracking, dan sertifikat digital.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['React', 'Node.js', 'MongoDB'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 5,
+    title: 'Portfolio Website',
+    description: 'Website portfolio modern dengan animasi yang smooth dan desain responsive untuk showcase karya.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 6,
+    title: 'Task Management App',
+    description: 'Aplikasi manajemen tugas dengan fitur drag & drop, deadline reminder, dan kolaborasi tim.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['React', 'Firebase', 'Material-UI'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 7,
+    title: 'Restaurant Website',
+    description: 'Website restoran dengan menu digital, sistem reservasi online, dan integrasi payment gateway.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['Vue.js', 'Express.js', 'MySQL'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 8,
+    title: 'Weather Dashboard',
+    description: 'Dashboard cuaca dengan prediksi 7 hari, peta interaktif, dan notifikasi cuaca ekstrem.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['JavaScript', 'Chart.js', 'OpenWeather API'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 9,
+    title: 'Social Media App',
+    description: 'Aplikasi media sosial dengan fitur posting, likes, comments, dan real-time messaging.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['React Native', 'Socket.io', 'PostgreSQL'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 10,
+    title: 'Crypto Tracker',
+    description: 'Aplikasi tracking cryptocurrency dengan real-time price updates dan portfolio management.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['Angular', 'TypeScript', 'CoinGecko API'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 11,
+    title: 'Blog Platform',
+    description: 'Platform blog dengan editor WYSIWYG, sistem komentar, dan SEO optimization.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['Gatsby', 'GraphQL', 'Contentful'],
     liveUrl: '#',
     repoUrl: '#',
   },
   {
-    title: 'Landing Page Produk SaaS',
-    description: 'Halaman promosi untuk produk digital yang fokus pada konversi, desain yang menarik, dan optimasi SEO.',
-    imgSrc: '/images/projects/project3.png', // Ganti dengan path gambar Anda
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    id: 12,
+    title: 'Fitness Tracker',
+    description: 'Aplikasi fitness tracking dengan workout plans, progress monitoring, dan nutrition guide.',
+    imgSrc: '/images/projects/project3.png',
+    tags: ['Flutter', 'Dart', 'SQLite'],
     liveUrl: '#',
     repoUrl: '#',
   },
@@ -146,7 +159,7 @@ const Projects = () => {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {projectData.map(project => (
-            <ProjectCard key={project.title} {...project} />
+            <ProjectCard key={project.id} {...project} />
           ))}
         </motion.div>
       </div>
