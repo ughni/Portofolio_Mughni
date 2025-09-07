@@ -39,22 +39,21 @@ const Contact = () => {
       link: "tel:+6285869090748",
     },
   ];
-
   return (
     <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">Get In Touch</h2>
-          <p className="text-text-secondary max-w-2xl mx-auto">Have a project in mind or want to discuss potential opportunities? Feel free to reach out!</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">Hubungi Kami</h2>
+          <p className="text-text-secondary max-w-2xl mx-auto">Punya proyek yang sedang direncanakan atau ingin membahas peluang potensial? Jangan ragu untuk menghubungi kami!</p>
           <div className="w-20 h-1 bg-primary mx-auto mt-4"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} className="space-y-6">
-            <h3 className="text-2xl font-bold text-text-primary">Contact Information</h3>
-            <p className="text-text-secondary">I m always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+            <h3 className="text-2xl font-bold text-text-primary">Informasi Kontak</h3>
+            <p className="text-text-secondary">Saya selalu terbuka untuk mendiskusikan proyek baru, ide kreatif, atau peluang untuk menjadi bagian dari visi Anda.</p>
 
             <div className="space-y-4">
               {contactInfo.map((item, index) => (
@@ -90,21 +89,21 @@ const Contact = () => {
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 bg-surface p-6 rounded-xl shadow-sm">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-text-primary mb-2">
-                  Your Name
+                  Nama Anda
                 </label>
                 <input
                   type="text"
                   id="name"
                   {...register("name", { required: "Name is required" })}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent"
-                  placeholder="Enter your name"
+                  placeholder="Masukkan Nama Anda"
                 />
                 {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name.message}</p>}
               </div>
 
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-text-primary mb-2">
-                  Email Address
+                  Alamat Email
                 </label>
                 <input
                   type="email"
@@ -117,28 +116,29 @@ const Contact = () => {
                     },
                   })}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent"
-                  placeholder="Enter your email"
+                  placeholder="Masukkan Email Anda"
                 />
                 {errors.email && <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>}
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-text-primary mb-2">
-                  Your Message
+                  Pesan Anda
                 </label>
                 <textarea
                   id="message"
                   rows={5}
                   {...register("message", { required: "Message is required" })}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent"
-                  placeholder="Hi Mughni, I'd like to talk about..."
+                  placeholder="
+                  Hai saya ingin berbicara tentang..."
                 ></textarea>
                 {errors.message && <p className="mt-1 text-sm text-red-500">{errors.message.message}</p>}
               </div>
 
               <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} type="submit" className="w-full bg-primary text-white py-3 px-6 rounded-lg hover:bg-teal-600 transition-colors flex items-center justify-center gap-2">
                 <FiSend size={18} />
-                Send Message
+                Kirim Pesan
               </motion.button>
             </form>
           </motion.div>

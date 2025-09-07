@@ -1,7 +1,7 @@
 "use client";
 
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaBootstrap, FaNodeJs, FaGitAlt, FaHardHat } from 'react-icons/fa';
-import { SiNextdotjs, SiPhp, SiFirebase, SiTailwindcss, SiSolidity, SiMysql, SiLaravel } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaBootstrap, FaNodeJs, FaGitAlt } from 'react-icons/fa';
+import { SiNextdotjs, SiPhp, SiFirebase, SiTailwindcss,  SiMysql } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
 // Enhanced color palette for each skill icon (including Laravel)
@@ -27,17 +27,12 @@ const skillsData = [
   { icon: <FaHtml5 />, name: 'HTML5' },
   { icon: <FaCss3Alt />, name: 'CSS3' },
   { icon: <FaJsSquare />, name: 'JavaScript' },
-  { icon: <SiPhp />, name: 'PHP' },
-  { icon: <SiLaravel />, name: 'Laravel' }, // Added Laravel here
   { icon: <FaReact />, name: 'React' },
   { icon: <SiNextdotjs />, name: 'Next.js' },
   { icon: <SiTailwindcss />, name: 'Tailwind CSS' },
   { icon: <FaBootstrap />, name: 'Bootstrap CSS' },
   { icon: <FaNodeJs />, name: 'Node.js' },
   { icon: <FaGitAlt />, name: 'Git' },
-  { icon: <SiSolidity />, name: 'Solidity' },
-  { icon: <FaHardHat />, name: 'Hardhat' },
-  { icon: <SiFirebase />, name: 'Firebase' },
   { icon: <SiMysql />, name: 'MySQL' },
 ];
 

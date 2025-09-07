@@ -23,7 +23,7 @@ const Footer = () => {
               M. Mughni
             </Link>
             <p className="text-text-secondary text-sm">
-              Building digital experiences that matter.
+              Membangun pengalaman digital yang penting.
             </p>
             <div className="flex space-x-4">
               {[
@@ -54,13 +54,13 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-semibold text-text-primary mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-text-primary mb-4">Tautan Cepat</h3>
             <ul className="space-y-2">
               {[
-                { name: "Home", href: "/" },
-                { name: "About", href: "#about" },
-                { name: "Projects", href: "#projects" },
-                { name: "Contact", href: "#contact" },
+                { name: "Beranda", href: "/" },
+                { name: "Tentang", href: "#about" },
+                { name: "Proyek", href: "#projects" },
+                { name: "Kontak", href: "#contact" },
               ].map((link, index) => (
                 <li key={index}>
                   <Link
@@ -81,7 +81,7 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-semibold text-text-primary mb-4">Resources</h3>
+            <h3 className="text-lg font-semibold text-text-primary mb-4">Sumbar Daya</h3>
             <ul className="space-y-2">
               {[
                 { name: "Blog", href: "/blog" },
@@ -111,7 +111,7 @@ const Footer = () => {
           className="border-t border-gray-200 dark:border-gray-800 mt-12 pt-8 text-center"
         >
           <p className="text-text-secondary text-sm">
-            &copy; {currentYear} M. Mughni. All rights reserved. Made with <FiHeart className="inline text-red-500" /> in Indonesia.
+            &copy; {currentYear} M. Mughni. Hak cipta dilindungi undang-undang. Dibuat dengan <FiHeart className="inline text-red-500" /> di Indonesia.
           </p>
         </motion.div>
       </div>

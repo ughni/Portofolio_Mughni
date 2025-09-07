@@ -4,9 +4,6 @@ import Image from "next/image";
 import { FiGithub, FiLinkedin, FiInstagram, FiDownload } from "react-icons/fi";
 import { motion } from "framer-motion";
 
-// TIDAK PERLU IMPORT GAMBAR DARI FOLDER /public
-// import gambar from "../../../public/images/M_Mughni.png"; // <-- HAPUS BARIS INI
-
 // Konfigurasi animasi untuk elemen teks
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -27,21 +24,20 @@ const Hero = () => {
         {/* Kolom Teks */}
         <div className="text-center md:text-left z-10">
           <motion.p initial="hidden" animate="visible" variants={fadeUp} transition={{ duration: 0.6, delay: 0.1 }} className="text-primary font-mono text-lg mb-2">
-            Hi, I&apos;m M. Mughni
+            Hai, Saya&apos; M. Mughni
           </motion.p>
 
           <motion.h1 initial="hidden" animate="visible" variants={fadeUp} transition={{ duration: 0.6, delay: 0.2 }} className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-4">
             <span className="block">Web Developer</span>
-            <span className="text-text-secondary">UI/UX Enthusiast</span>
           </motion.h1>
 
           <motion.p initial="hidden" animate="visible" variants={fadeUp} transition={{ duration: 0.6, delay: 0.3 }} className="text-text-secondary text-lg md:text-xl max-w-lg mb-8">
-            I build exceptional digital experiences. Currently focused on building accessible, human-centered products.
+            Saya membangun pengalaman digital yang luar biasa. Saat ini fokus pada membangun produk yang dapat diakses dan berpusat pada manusia.
           </motion.p>
 
           <motion.div initial="hidden" animate="visible" variants={fadeUp} transition={{ duration: 0.6, delay: 0.4 }} className="flex flex-wrap gap-4 justify-center md:justify-start">
             <a href="#contact" className="bg-primary text-white py-3 px-6 rounded-md hover:bg-teal-600 transition-colors flex items-center gap-2">
-              Get In Touch
+              Hubungi Kami
             </a>
             <a
               href="https://drive.google.com/file/d/13tFA50jUeOGJuFFm-3gwDk6tHfNP4Bo1/view?usp=sharing"
